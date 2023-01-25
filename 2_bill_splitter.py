@@ -10,4 +10,4 @@
 bill = int(input('What is bill number? '))
 persons = int(input('How many people here? '))
 tip = int(input('What is your tip percent? '))
-print('Each person should pay ' + str(bill/persons * (tip / 100 + 1)))
+print('Each person should pay ' + str(round(bill/persons * (tip / 100 + 1), 2)))
